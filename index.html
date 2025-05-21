@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liana Tasa - Personal Website</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome untuk ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #fdfcfb;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #FFC3A0 0%, #FFAFBD 100%);
+        }
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            background: #FFAFBD;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header/Nav -->
+    <header class="gradient-bg shadow-md">
+        <div class="container mx-auto px-4 py-6">
+            <div class="flex justify-between items-center">
+                <h1 class="text-2xl md:text-3xl font-bold text-white">Liana Tasa</h1>
+                <nav class="hidden md:flex space-x-6">
+                    <a href="#about" class="text-white hover:text-pink-100 transition">Tentang</a>
+                    <a href="#skills" class="text-white hover:text-pink-100 transition">Kompetensi</a>
+                    <a href="#portfolio" class="text-white hover:text-pink-100 transition">Portofolio</a>
+                    <a href="#contact" class="text-white hover:text-pink-100 transition">Kontak</a>
+                </nav>
+                <button class="md:hidden text-white text-xl" id="menu-button">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="md:hidden hidden mt-4" id="mobile-menu">
+                <nav class="flex flex-col space-y-3">
+                    <a href="#about" class="text-white hover:text-pink-100 transition">Tentang</a>
+                    <a href="#skills" class="text-white hover:text-pink-100 transition">Kompetensi</a>
+                    <a href="#portfolio" class="text-white hover:text-pink-100 transition">Portofolio</a>
+                    <a href="#contact" class="text-white hover:text-pink-100 transition">Kontak</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-pink-50 py-20">
+        <div class="container mx-auto px-4 text-center">
+            <img src="https://imgur.com/YFCG787" alt="Liana Tasa" class="rounded-full w-32 h-32 object-cover mx-auto mb-6 border-4 border-pink-300 shadow-lg">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Liana Tasa</h1>
+            <p class="text-xl text-gray-600 mb-8">Profesional Akuntansi</p>
+            <div class="flex justify-center space-x-4">
+                <a href="mailto:lianatasa522@gmail.com" class="bg-pink-500 hover:bg-pink-600 text-white px-6 py-2 rounded-full transition shadow-md">
+                    <i class="fas fa-envelope mr-2"></i>Hubungi Saya
+                </a>
+                <a href="https://www.instagram.com/lianaatasa" target="_blank" class="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-2 rounded-full transition shadow-md">
+                    <i class="fab fa-instagram mr-2"></i>Instagram
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-12 section-title">Tentang Saya</h2>
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <img src="https://imgur.com/YFCG787" alt="About Liana" class="rounded-lg shadow-lg mx-auto">
+                </div>
+                <div class="md:w-1/2 md:pl-10">
+                    <p class="text-gray-600 mb-6">
+                        Selamat datang di website pribadi saya! Saya Liana Tasa, seorang profesional di bidang akuntansi yang 
+                        berbasis di Palembang, Sumatera Selatan. Saya memiliki keahlian dalam pencatatan dan jurnal akuntansi
+                        serta pemahaman yang baik tentang standar akuntansi.
+                    </p>
+                    <p class="text-gray-600 mb-6">
+                        Saya percaya bahwa ketelitian dan disiplin adalah kunci utama dalam pekerjaan saya. Selain itu, 
+                        kemampuan beradaptasi dan kecerdasan emosional membantu saya dalam bekerja sama dengan tim secara efektif.
+                    </p>
+                    <p class="text-gray-600">
+                        Di website ini, Anda dapat menemukan informasi tentang kompetensi, portofolio, dan kontak saya. Jangan ragu untuk 
+                        menghubungi saya jika ingin berdiskusi atau bekerjasama!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 bg-pink-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-12 section-title">Kompetensi</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <h3 class="text-xl md:text-2xl font-semibold text-pink-500 mb-6">Soft Skills</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-pink-500 mr-3"></i>
+                            <span class="text-gray-700">Kerja Sama Tim</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-pink-500 mr-3"></i>
+                            <span class="text-gray-700">Teliti</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-pink-500 mr-3"></i>
+                            <span class="text-gray-700">Manajemen Waktu</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-pink-500 mr-3"></i>
+                            <span class="text-gray-700">Kemampuan Beradaptasi</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-pink-500 mr-3"></i>
+                            <span class="text-gray-700">Kecerdasan Emosional</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-pink-500 mr-3"></i>
+                            <span class="text-gray-700">Pemecahan Masalah</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-pink-500 mr-3"></i>
+                            <span class="text-gray-700">Negosiasi</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-pink-500 mr-3"></i>
+                            <span class="text-gray-700">Mendengarkan Aktif</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check-circle text-pink-500 mr-3"></i>
+                            <span class="text-gray-700">Disiplin</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <h3 class="text-xl md:text-2xl font-semibold text-pink-500 mb-6">Hard Skills</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-center">
+                            <i class="fas fa-laptop-code text-pink-500 mr-3"></i>
+                            <span class="text-gray-700">Mengoperasikan Komputer</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-book text-pink-500 mr-3"></i>
+                            <span class="text-gray-700">Pencatatan & Jurnal Akuntansi</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-file-invoice-dollar text-pink-500 mr-3"></i>
+                            <span class="text-gray-700">Pemahaman Dasar Standar Akuntansi</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-file-excel text-pink-500 mr-3"></i>
+                            <span class="text-gray-700">Microsoft Excel Tingkat Menengah</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-12 section-title">Portofolio</h2>
+            
+            <div class="mb-10">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">Channel YouTube Saya</h3>
+                <div class="flex flex-col md:flex-row items-center bg-pink-50 rounded-lg overflow-hidden shadow-md">
+                    <div class="md:w-1/3">
+                    <img src="https://imgur.com/ZsWGpke" alt="YouTube Channel" class="w-full h-auto">
+                    </div>
+                    <div class="md:w-2/3 p-6">
+                        <h4 class="text-lg font-semibold text-pink-500 mb-3">lianatasa5716</h4>
+                        <p class="text-gray-600 mb-4">
+                            Di channel YouTube saya, saya berbagi berbagai konten informatif seputar akuntansi, tips-tips 
+                            pengelolaan keuangan, dan tutorial Excel untuk membantu pekerjaan akuntansi. Saya juga sesekali
+                            membagikan pengalaman kerja dan tips karir di bidang akuntansi.
+                        </p>
+                        <a href="https://youtube.com/@lianatasa5716?si=PkO9Z556wYjqji2-" target="_blank" 
+                           class="inline-flex items-center bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-md transition">
+                            <i class="fab fa-youtube mr-2"></i>Kunjungi Channel
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-pink-50 rounded-lg overflow-hidden shadow-md">
+                    <img src="/api/placeholder/400/250" alt="Project 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">Laporan Keuangan Bisnis UMKM</h3>
+                        <p class="text-gray-600 mb-4">Pembuatan laporan keuangan lengkap untuk bisnis UMKM, termasuk neraca, laporan laba rugi, dan arus kas.</p>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="bg-pink-50 rounded-lg overflow-hidden shadow-md">
+                    <img src="/api/placeholder/400/250" alt="Project 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">Sistem Pencatatan Persediaan</h3>
+                        <p class="text-gray-600 mb-4">Pengembangan sistem pencatatan persediaan dengan menggunakan Excel untuk toko retail.</p>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="bg-pink-50 rounded-lg overflow-hidden shadow-md">
+                    <img src="/api/placeholder/400/250" alt="Project 3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-2">Dashboard Keuangan Interaktif</h3>
+                        <p class="text-gray-600 mb-4">Pembuatan dashboard keuangan interaktif untuk memantau kinerja bisnis menggunakan Excel.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 gradient-bg text-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl md:text-3xl font-bold mb-12">Kontak Saya</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-6">Informasi Kontak</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-user mt-1 mr-3"></i>
+                            <span>Liana Tasa</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope mt-1 mr-3"></i>
+                            <a href="mailto:lianatasa522@gmail.com" class="hover:text-pink-200 transition">lianatasa522@gmail.com</a>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3"></i>
+                            <span>Palembang, Sumatera Selatan</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fab fa-instagram mt-1 mr-3"></i>
+                            <a href="https://www.instagram.com/lianaatasa" target="_blank" class="hover:text-pink-200 transition">@lianaatasa</a>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fab fa-youtube mt-1 mr-3"></i>
+                            <a href="https://youtube.com/@lianatasa5716?si=PkO9Z556wYjqji2-" target="_blank" class="hover:text-pink-200 transition">@lianatasa5716</a>
+                        </li>
+                    </ul>
+                    
+                    <div class="mt-8">
+                        <h3 class="text-xl font-semibold mb-4">Media Sosial</h3>
+                        <div class="flex space-x-4">
+                            <a href="https://www.instagram.com/lianaatasa" target="_blank" class="bg-white text-pink-500 hover:text-pink-600 w-10 h-10 rounded-full flex items-center justify-center transition">
+                                <i class="fab fa-instagram text-xl"></i>
+                            </a>
+                            <a href="https://youtube.com/@lianatasa5716?si=PkO9Z556wYjqji2-" target="_blank" class="bg-white text-pink-500 hover:text-pink-600 w-10 h-10 rounded-full flex items-center justify-center transition">
+                                <i class="fab fa-youtube text-xl"></i>
+                            </a>
+                            <a href="mailto:lianatasa522@gmail.com" class="bg-white text-pink-500 hover:text-pink-600 w-10 h-10 rounded-full flex items-center justify-center transition">
+                                <i class="fas fa-envelope text-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white text-gray-800 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold text-pink-500 mb-6">Kirim Pesan</h3>
+                    <form>
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-600 mb-2">Nama</label>
+                            <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500">
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-600 mb-2">Email</label>
+                            <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500">
+                        </div>
+                        <div class="mb-4">
+                            <label for="message" class="block text-gray-600 mb-2">Pesan</label>
+                            <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"></textarea>
+                        </div>
+                        <button type="submit" class="bg-pink-500 hover:bg-pink-600 text-white px-6 py-2 rounded-md transition">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 Liana Tasa. Semua Hak Dilindungi.</p>
+            <div class="flex justify-center mt-4 space-x-4">
+                <a href="https://www.instagram.com/lianaatasa" target="_blank" class="text-gray-400 hover:text-white transition">
+                    <i class="fab fa-instagram text-xl"></i>
+                </a>
+                <a href="https://youtube.com/@lianatasa5716?si=PkO9Z556wYjqji2-" target="_blank" class="text-gray-400 hover:text-white transition">
+                    <i class="fab fa-youtube text-xl"></i>
+                </a>
+                <a href="mailto:lianatasa522@gmail.com" class="text-gray-400 hover:text-white transition">
+                    <i class="fas fa-envelope text-xl"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile menu toggle
+        document.getElementById('menu-button').addEventListener('click', function() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                
+                // Close mobile menu if open
+                if (!document.getElementById('mobile-menu').classList.contains('hidden')) {
+                    document.getElementById('mobile-menu').classList.add('hidden');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
