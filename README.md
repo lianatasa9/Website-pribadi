@@ -24,12 +24,18 @@ Sertakan juga link ke akun Youtube tersebut dengan menggunakan icon yang sesua
 ## Hasil Generate
 - [Hasil Claude 3.7 Sonnet](index.html)
 ## Claude 3.7 Sonnet
+### Gambar Claude 1-3
 <p align="center">
-  <img src="https://github.com/lianatasa9/website-pribadi/blob/main/images/claude-1.png?raw=true" width="700">
-  <img src="https://github.com/lianatasa9/website-pribadi/blob/main/images/claude-2.png?raw=true" width="700">
-  <img src="https://github.com/lianatasa9/website-pribadi/blob/main/images/claude-3.png?raw=true" width="700">
-  <img src="https://github.com/lianatasa9/website-pribadi/blob/main/images/claude-4.png?raw=true" width="700">
-  <img src="https://github.com/lianatasa9/website-pribadi/blob/main/images/claude-5.png?raw=true" width="700">
-  <img src="https://github.com/lianatasa9/website-pribadi/blob/main/images/claude-6.png?raw=true" width="700">
+  <img src="https://github.com/lianatasa9/website-pribadi/blob/main/claude-1.png?raw=true" width="300">
+  <img src="https://github.com/lianatasa9/website-pribadi/blob/main/claude-2.png?raw=true" width="300">
+  <img src="https://github.com/lianatasa9/website-pribadi/blob/main/claude-3.png?raw=true" width="300">
 </p>
+
+### Gambar Claude 4-6
+<p align="center">
+  <img src="https://github.com/lianatasa9/website-pribadi/blob/main/claude-4.png?raw=true" width="300">
+  <img src="https://github.com/lianatasa9/website-pribadi/blob/main/claude-5.png?raw=true" width="300">
+  <img src="https://github.com/lianatasa9/website-pribadi/blob/main/claude-6.png?raw=true" width="300">
+</p>
+
 
