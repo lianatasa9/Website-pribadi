@@ -24,3 +24,9 @@ Sertakan juga link ke akun Youtube tersebut dengan menggunakan icon yang sesua
 ## Hasil Generate
 - [Hasil Claude 3.7 Sonnet](index.html)
 ## Claude 3.7 Sonnet
+- [Claude 1](images/images-1.png)
+- [Claude 2](images/images-2.png)
+- [Claude 3](images/images-3.png)
+- [Claude 4](images/images-4.png)
+- [Claude 5](images/images-5.png)
+- [Claude 6](images/images-6.png)
