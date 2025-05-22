@@ -25,11 +25,11 @@ Sertakan juga link ke akun Youtube tersebut dengan menggunakan icon yang sesua
 - [Hasil Claude 3.7 Sonnet](index.html)
 ## Claude 3.7 Sonnet
 <p align="center">
-  <img src="https://github.com/lianatasa9/personal-website-ai/blob/main/images/claude-1.png?raw=true" width="400">
-  <img src="https://github.com/lianatasa9/personal-website-ai/blob/main/images/claude-2.png?raw=true" width="400">
-  <img src="https://github.com/lianatasa9/personal-website-ai/blob/main/images/claude-3.png?raw=true" width="400">
-  <img src="https://github.com/lianatasa9/personal-website-ai/blob/main/images/claude-4.png?raw=true" width="400">
-  <img src="https://github.com/lianatasa9/personal-website-ai/blob/main/images/claude-5.png?raw=true" width="400">
-  <img src="https://github.com/lianatasa9/personal-website-ai/blob/main/images/claude-6.png?raw=true" width="400">
+  <img src="https://github.com/lianatasa9/personal-website-pribadi/blob/main/images/claude-1.png?raw=true" width="700">
+  <img src="https://github.com/lianatasa9/personal-website-pribadi/blob/main/images/claude-2.png?raw=true" width="700">
+  <img src="https://github.com/lianatasa9/personal-website-pribadi/blob/main/images/claude-3.png?raw=true" width="700">
+  <img src="https://github.com/lianatasa9/personal-website-pribadi/blob/main/images/claude-4.png?raw=true" width="700">
+  <img src="https://github.com/lianatasa9/personal-website-pribadi/blob/main/images/claude-5.png?raw=true" width="700">
+  <img src="https://github.com/lianatasa9/personal-website-pribadi/blob/main/images/claude-6.png?raw=true" width="700">
 </p>
 
