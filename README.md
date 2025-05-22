@@ -24,9 +24,12 @@ Sertakan juga link ke akun Youtube tersebut dengan menggunakan icon yang sesua
 ## Hasil Generate
 - [Hasil Claude 3.7 Sonnet](index.html)
 ## Claude 3.7 Sonnet
-- [Claude 1](images/images-1.png)
-- [Claude 2](images/images-2.png)
-- [Claude 3](images/images-3.png)
-- [Claude 4](images/images-4.png)
-- [Claude 5](images/images-5.png)
-- [Claude 6](images/images-6.png)
+<p align="center">
+  <img src="https://github.com/lianatasa9/personal-website-ai/blob/main/images/claude-1.png?raw=true" width="400">
+  <img src="https://github.com/lianatasa9/personal-website-ai/blob/main/images/claude-2.png?raw=true" width="400">
+  <img src="https://github.com/lianatasa9/personal-website-ai/blob/main/images/claude-3.png?raw=true" width="400">
+  <img src="https://github.com/lianatasa9/personal-website-ai/blob/main/images/claude-4.png?raw=true" width="400">
+  <img src="https://github.com/lianatasa9/personal-website-ai/blob/main/images/claude-5.png?raw=true" width="400">
+  <img src="https://github.com/lianatasa9/personal-website-ai/blob/main/images/claude-6.png?raw=true" width="400">
+</p>
+
