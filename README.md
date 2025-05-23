@@ -10,12 +10,13 @@ Email : lianatasa522@gmail.com
 No Hp : 082178637160
 alamat : Palembang, Sumatera Selatan
 Instagram : lianaatasa
+
 Kompetensi : 
 Soft skill : Kerja Sama Tim, Teliti, Manajemen Waktu, Kemampuan Beradaptasi, Kecerdasan Emosional, Pemecahan Masalah, Negosiasi, Mendengarkan Aktif, disiplin
 Hard Skill : Mengoperasikan komputer, Pencatatan & Jurnal Akuntansi, Pemahaman Dasar Standar Akuntansi, Microsoft Excel tingkat Menengah
+
 Portofolio
 Konten website bisa diambil dari Youtube. Silakan buatkan summary dari konten tersebut.
-
 Youtube : lianatasa5716 (https://youtube.com/@lianatasa5716?si=PkO9Z556wYjqji2-)
 
 CSS bisa menggunakan framework CSS yang ada di internet, seperti Bootstrap, Tailwind, Bulma, dll. Silakan pilih salah satu yang paling ringan dan sederhana supaya tidak memberatkan loading website. Website ini bisa diakses di semua device, baik desktop maupun mobile. Buatkan responsive design yang estetik, modern dengan warna yang ceria dan energik. Gunakan font yang modern dan mudah dibaca.
